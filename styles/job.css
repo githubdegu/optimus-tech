@@ -1,0 +1,30 @@
+.talentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    padding-top: 8rem;
+    gap: 1rem;
+}
+
+.talentos h2 {
+    text-align: center;
+    color: var(--cor-do-titulo);
+}
+
+.talentos span {
+    color: var(--cor-principal);
+    background: rgba(142, 36, 36, 0.05);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.talentos p {
+    text-align: center;
+    color: var(--cor-do-titulo);
+}
+
+.talentos img {
+    margin-top: 2rem;
+    width: 80%;
+}

@@ -1,0 +1,36 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAFB;
+    padding: 6rem 1rem;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+footer h2 {
+    color: var(--cor-do-titulo);
+}
+
+footer span {
+    color: var(cor-do-texto);
+}
+
+footer form {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer input {
+    outline: none;
+    border: 1px solid #D0D5DD;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    width: 22em;
+    margin-right: 1rem;
+}
+
+.botao-cadastro {
+    color: #fff;
+}
